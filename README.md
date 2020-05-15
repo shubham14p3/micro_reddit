@@ -1,28 +1,47 @@
 # Micro-Reddit
 
-We are building a simpler Reddit called micro-reddit. In this project, we are using databsae necessary for  Active Records, Validations and commenting. We are not building the front end for it because we don’t need to. We are Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
+In this project, we are building a "Junior [Reddit](http://reddit.com/)" using Active Record to build databases that will allow us to create users, posts, and comments for the posts. We also created the appropriate associations amongst them to link each one with its respective other. Finally, added validations for each one of them to guaranty the users are not providing any incorrect information.
+
+![screenshot1](app/assets/images/screenshot1.png)
 
 # Requirements
 
-- Ruby > 2.6.6
+- Ruby > 2.6.5
 - Rails > 6.0.1
 
 ## Getting Started
 
-To get started with the app, clone the repo and then install the needed gems:
+To get started with the app, cd to the directory where you would like the repo to live by typing on your terminal:
 
+```
+$ cd <directory>
+```
+
+Clone the repo typing:
+
+```
+$ git clone https://github.com/shubham14p3/micro_reddit.git
+```
+
+Install the needed gems:
+
+```
 $ bundle install
-Next, migrate the database:
+```
 
+Finally, migrate the database:
+
+```
 $ rails db:migrate
-Finally, run the test suite to verify that everything is working correctly:
+```
 
 ## Built With
 
 - Ruby
+- Rails
 - VSCode
 
-## Author
+## Authors
 
 👤 **Luis Angel Maldonado**
 
@@ -40,6 +59,12 @@ Finally, run the test suite to verify that everything is working correctly:
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/shubham14p3/micro_reddit/issues/).
+
+## Acknowledgement
+
+- Project requested by [Microverse Program](https://www.microverse.org/).
+- Original project from [The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails).
+- Idea taken from [Reddit](http://reddit.com/) website.
 
 ## Show your support
 
