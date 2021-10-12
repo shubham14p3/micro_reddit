@@ -11,7 +11,7 @@ gem "activesupport", ">= 6.0.3.1"
 gem "actionpack", ">= 6.0.3.2"
 gem "activestorage", ">= 6.0.3.1"
 # Use Puma as the app server
-gem 'puma', '~> 4.3.5'
+gem 'puma', '~> 4.3.9'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
